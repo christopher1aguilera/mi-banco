@@ -1,0 +1,1 @@
+CREATE TABLE cuentas (id INT, saldo DECIMAL CHECK (saldo >= 0) );
